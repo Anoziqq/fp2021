@@ -28,11 +28,11 @@ function2 x1 y1 r1 x2 y2 r2 = (x2-x1)^2+(y2-y1)^2<=(r2-r1)^2
 -- Для запуску коду потрібно ввести:
 -- ghci
 -- load: lab1//lab1.hs
--- function1 0 0 9 3 4 3
+-- function2 0 0 9 3 4 3
 --True
--- function2 (3, 4, 9, 0, 0, 3)
+-- function1 (3, 4, 9, 0, 0, 3)
 --True
--- function1 0 0 3 3 4 3
+-- function2 0 0 3 3 4 3
 --False
 
 -- У разі виникнення проблем типу: Variable not in scope можна використати 
