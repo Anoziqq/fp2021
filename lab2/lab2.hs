@@ -8,7 +8,7 @@ import GHC.List
 
 -- Завдання 1. Перетворити багаторівневий список на однорівневий
 -- a) без застосування вбудованих функцій
-concat :: [[a]] -> [a]
+myConcat :: [[a]] -> [a]
 myConcat [] = []
 myConcat (x:xs) = x ++ myConcat xs
 -- myConcat [[1,2],[4,7,8]]
